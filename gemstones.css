@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: pink;
     margin: 0;   
@@ -18,7 +21,7 @@ img {
     display: block;
 }
 .secondary {
-    width: 30%;
+    width: 70%;
     margin: 1px auto;
     display: block;
 }
@@ -31,7 +34,6 @@ img {
 }
 nav ul li {
     background: rgb(97, 0, 167);
-    width: 12.4%;
     padding: 10px;
     list-style-type: none;
     display: inline-block;
@@ -44,4 +46,21 @@ nav ul li a {
 .list {
     background: none;
     display: block;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+}
+.gemstone-info {
+    width: 70%;
+    float: right;
+}
+.gemstone-nav {
+    width: 30%;
+    padding: 10px;
+    float: left;
+}
+.container {
+    display: inline-block;
+}
+.gemstone-footer {
+    text-align: center;
+    margin: 1em;
+}
